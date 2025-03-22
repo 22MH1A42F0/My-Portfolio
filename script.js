@@ -5,7 +5,7 @@ $(document).ready(function() {
       if ($(this).scrollTop() > 1) {
         $(".header-area").addClass("sticky");
       } else {
-        $(".header-area").removeClass("sticky");
+        $(".header-area").removeClass("sticky"); 
       }
   
       // Update the active section in the header
