@@ -128,12 +128,12 @@ document.getElementById('contact-form').addEventListener('submit', function(even
   };
 
   // Send Email to Admin
-  emailjs.send("service_g1cx9to", "template_ikmochs", templateParams)
+  emailjs.send("service_xml5f4o", "template_71kp9xc", templateParams)
   .then(function(response) {
       console.log('Admin Email Sent:', response);
 
       // Send Auto-Reply to User
-      return emailjs.send("service_g1cx9to", "template_g97luco", templateParams);
+      return emailjs.send("service_xml5f4o", "template_tswh1oj", templateParams);
   })
   .then(function(response) {
       // Show success toast
