@@ -79,7 +79,7 @@ $(document).ready(function() {
   //             }, 5000)
   //             form.reset()
   //         })
-  //         .catch(error => console.error('Error!', error.message))
+  //         .catch(error => console.error('Error!', error.message)) 
   // })
     
   });
